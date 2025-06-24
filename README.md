@@ -64,7 +64,3 @@ src/
 ├── main.jsx              # Entry point
 └── index.css             # Tailwind CSS imports
 ```
-
-## Screenshots 🖥️
-
-![App Screenshot](screenshot.png)
