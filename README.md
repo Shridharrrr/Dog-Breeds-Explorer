@@ -22,7 +22,7 @@ A React web application that fetches and displays dog images from the [Dog CEO D
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/dog-ceo-explorer.git
+git clone https:https://github.com/Shridharrrr/Dog-Breeds-Explorer.git
 ```
 
 2. Navigate to the project directory:
