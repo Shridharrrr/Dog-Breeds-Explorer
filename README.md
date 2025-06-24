@@ -1,12 +1,70 @@
-# React + Vite
+# Dog Breed Explorer 🐕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application that fetches and displays dog images from the [Dog CEO Dog API](https://dog.ceo/dog-api/), with filtering and refresh capabilities.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🖼️ Displays 5 random dog images
+- 🔄 Refresh button to load new images
+- 🔍 Filter by dog breed from a dropdown list
+- 📱 Responsive design for all screen sizes
+- ⏳ Loading spinner during API requests
+- ❌ Error handling for failed requests
 
-## Expanding the ESLint configuration
+## Technologies Used 🛠️
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Vite](https://vitejs.dev/) - Fast frontend tooling
+- [React](https://reactjs.org/) - JavaScript library for building UIs
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Dog CEO API](https://dog.ceo/dog-api/) - Free dog image API
+
+## Installation ⚙️
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/dog-ceo-explorer.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd dog-ceo-explorer
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+## Running the App 🚀
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+```
+http://localhost:5173
+```
+
+## Building for Production 🏗️
+
+To create a production build:
+```bash
+npm run build
+```
+
+## Project Structure 📂
+
+```
+src/
+├── components/
+│   └── DogGallery.jsx    # Main component with all functionality
+├── App.jsx               # Root component
+├── main.jsx              # Entry point
+└── index.css             # Tailwind CSS imports
+```
+
+## Screenshots 🖥️
+
+![App Screenshot](screenshot.png)
